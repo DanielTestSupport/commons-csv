@@ -792,6 +792,12 @@ public final class CSVFormat implements Serializable {
      *
      * @throws IllegalArgumentException
      */
+    
+    /**
+    *In this particular area the procedure is doing a for which gives 72000 interactions to continue, this takes a lot of time
+    to be completed at the moment it's just commented to see the performance of the build. 
+    *
+    
     private void validate() throws IllegalArgumentException {
         for (int i=0; i<20*60*60; i++) {
             System.out.print('.');
@@ -845,6 +851,8 @@ public final class CSVFormat implements Serializable {
             }
         }
     }
+    
+    */
 
     /**
      * Sets the comment start marker of the format to the specified character.
