@@ -802,7 +802,7 @@ public final class CSVFormat implements Serializable {
     /*Original for is (for (int=0; i<20*60*60; i++)*/
     /*Original thread is set to 1000*/ 
     private void validate() throws IllegalArgumentException {
-        for (int i=0; i<10; i++) {
+        for (int i=0; i<5; i++) {
             System.out.print('.');
             try {
                 Thread.currentThread().sleep(1);
